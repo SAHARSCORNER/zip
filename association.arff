@@ -1,0 +1,19 @@
+@relation transactions
+
+@attribute M {true, false}
+@attribute O {true, false}
+@attribute N {true, false}
+@attribute K {true, false}
+@attribute E {true, false}
+@attribute Y {true, false}
+@attribute D {true, false}
+@attribute A {true, false}
+@attribute U {true, false}
+@attribute C {true, false}
+
+@data
+true, true, true, true, true, true, false, false, false, false    % T1: MONKEY
+true, true, true, true, true, true, true, false, false, false     % T2: DONKEY
+true, false, false, true, true, false, false, true, false, false  % T3: MAKE
+true, false, false, true, false, true, false, false, true, false  % T4: MUCKY
+false, true, false, true, true, false, false, false, false, true  % T5: COOKE

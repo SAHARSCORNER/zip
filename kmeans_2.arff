@@ -1,0 +1,9 @@
+@relation kmeans_2
+@attribute weight_index{1,2,4,5}
+@attribute ph{1,3,4}
+
+@data
+1,1
+2,1
+4,3
+5,4

@@ -1,0 +1,17 @@
+@relation kmeans_1D
+@attribute quantity numeric
+
+@data
+13
+16
+29
+78
+21
+43
+56
+90
+21
+8
+88
+60
+34
